@@ -23,6 +23,11 @@ C:\Users\Jason\.xargo -Z force-unstable-if-unmarked --target aarch64-raspi3-none
 error: unknown codegen option: `emit`
 ```
 
+# To run
+
+1. Install Rust
+1. `cargo install xargo`
+
 # notes on building libcore - outdated now with xargo
 ```
 rustup override set nightly
