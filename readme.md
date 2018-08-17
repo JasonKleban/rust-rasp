@@ -1,7 +1,4 @@
-
-
-
-
+Trying to build a kernel for bare-metal raspberry pi 3 from Windows.
 
 suggested build command: `xargo build --release --target aarch64-raspi3-none-elf --verbose`
 
@@ -26,7 +23,7 @@ C:\Users\Jason\.xargo -Z force-unstable-if-unmarked --target aarch64-raspi3-none
 error: unknown codegen option: `emit`
 ```
 
-#my notes
+#notes on building libcore - outdated now with xargo
 ```
 rustup override set nightly
 rustc --version
