@@ -1,2 +1,0 @@
-[target.aarch64-raspi3-none-elf]
-rustflags = [ "-C", "emit=obj" ]

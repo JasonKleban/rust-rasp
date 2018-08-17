@@ -1,1 +1,1 @@
-xargo build --release --target aarch64-raspi3-none-elf --verbose
+xargo rustc --target aarch64-raspi3-none-elf --release --verbose -- --emit=obj
