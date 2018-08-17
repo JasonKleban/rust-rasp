@@ -4,6 +4,7 @@ Trying to build a kernel for bare-metal raspberry pi 3 from Windows.
 
 1. Install Rust
 1. `cargo install xargo`
+1. install missing components like `rustup component add rust-src` as prompted by build attempts ...
 1. ...
 
 suggested build command: `xargo build --release --target aarch64-raspi3-none-elf --verbose`
