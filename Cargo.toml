@@ -1,0 +1,6 @@
+[package]
+name = "rust-rasp"
+version = "0.1.0"
+
+[lib]
+path="kernel.rs"

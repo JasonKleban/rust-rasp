@@ -1,0 +1,1 @@
+xargo build --release --target aarch64-raspi3-none-elf --verbose
