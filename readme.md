@@ -7,7 +7,13 @@ Trying to build a kernel for bare-metal raspberry pi 3 from Windows.
 1. install missing components like `rustup component add rust-src` as prompted by build attempts ...
 1. `xargo rustc --target aarch64-raspi3-none-elf --release --verbose -- --emit=obj` or `./build.bat` for the lazy
 
-# To link(?) the .bin file
+# To link the .elf file
+
+maybe requires `rustup override set nightly-x86_64-pc-windows-gnu`?
+
+1. ...
+
+# Generate the kernel.img file
 
 1. ...
 
