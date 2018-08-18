@@ -1,5 +1,5 @@
 {
-    "arch": "aarch64",
+    "arch": "arm",
     "data-layout": "e-m:e-i8:8:32-i16:16:32-i64:64-i128:128-n32:64-S128",
     "executables": true,
     "linker-flavor": "ld.lld",
@@ -10,7 +10,7 @@
             "--script=link.ld"
         ]
     },
-    "llvm-target": "aarch64-unknown-none",
+    "llvm-target": "arm-unknown-none",
     "no-compiler-rt": true,
     "features": "+a53,+strict-align",
     "max-atomic-width": 128,
@@ -23,11 +23,11 @@
     "target-pointer-width": "64",
     "disable-redzone": true,
     "abi-blacklist": [
-	"stdcall",
-	"fastcall",
-	"vectorcall",
-	"thiscall",
-	"win64",
-	"sysv64"
+        "stdcall",
+        "fastcall",
+        "vectorcall",
+        "thiscall",
+        "win64",
+        "sysv64"
     ]
 }
